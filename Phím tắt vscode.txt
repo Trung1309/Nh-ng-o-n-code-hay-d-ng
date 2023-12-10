@@ -1,0 +1,2 @@
+Xoá hàng trống: ^$\n
+Format code: alt + shift + f
