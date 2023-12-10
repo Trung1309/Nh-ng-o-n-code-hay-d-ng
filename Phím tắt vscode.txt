@@ -1,2 +1,10 @@
-Xoá hàng trống: ^$\n
+-> Xoá các hàng trống trong vs Code
+B1: Bấm Ctrl+H (Find and Replace)
+B2: Chọn"Use Regular Expressions"
+B3: Gõ "^$\n" trong ô Find what
+B4: Để trống ô Replace With.
+B5: Bấm"Replace All"
+
+
+////////////////////
 Format code: alt + shift + f
