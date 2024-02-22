@@ -8,3 +8,22 @@ B5: Bấm"Replace All"
 
 ////////////////////
 Format code: alt + shift + f
+
+
+
+
+
+
+/* Tự động add thêm icon down vào những nơi có menu-con trong menu chính */
+  const menuItem = document.querySelectorAll('.header-bottom .nav-menu > li');
+
+  menuItem.forEach(item => {
+      const subMenu = item.querySelector('ul.sub-menu');
+      if (subMenu) {
+      const icon = document.createElement('i');
+      icon.className = 'fa-solid fa-chevron-down'; // Replace with the class of your icon library, e.g., Font Awesome
+
+      // Add the icon to the beginning of the <li> element
+      item.appendChild(icon);
+      }
+  });
